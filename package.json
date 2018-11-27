@@ -4,7 +4,7 @@
     "description": "A webcomponent starter kit that contains everything you need to direct code your webcomp and not take 2 days for the setup...",
     "main": "index.js",
     "scripts": {
-        "test": "npm run build && karma",
+        "test": "wct",
         "build": "npm run clean && webpack",
         "start": "webpack-dev-server",
         "clean": "rimraf dist"
@@ -42,6 +42,7 @@
         "rimraf": "^2.6.2",
         "sass-loader": "^7.1.0",
         "style-loader": "^0.23.1",
+        "web-component-tester": "^6.9.0",
         "webpack": "^4.26.1",
         "webpack-cli": "^3.1.2",
         "webpack-dev-server": "^3.1.10"

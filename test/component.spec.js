@@ -17,3 +17,14 @@ describe('WebComponent '+ COMP_NAME, () => {
         });        
     });
 });
+
+suite('AwesomeLib', function() {
+    let comp = document.createElement(COMP_NAME);  
+
+    test('is awesome', function() {
+        assert.isTrue(AwesomeLib.awesome);
+        customElements.whenDefined(COMP_NAME).then(() => {
+            expect(comp.dummy).to.equal('woot');
+        });
+    });
+});

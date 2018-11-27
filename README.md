@@ -30,6 +30,7 @@ Specify the extended tagname in the definition of the custom element like
 1. Adapt ```package.json``` according to your WebComponent
 1. Rename the class in the ```scripts/component.js```
 1. Adapt the ```CustomElements.define``` in the ```scripts/component.js```
+1. Write the unit tests in the test folder
 1. Happy coding
 
 ### Extending HTMLElement VS extending specific Elements
@@ -56,3 +57,9 @@ If you want to add a third party style library like let's say [Twitter Bootstrap
 ```@import "~bootstrap/dist/css/bootstrap";```
 
 See this [Webpack documentation](https://github.com/webpack-contrib/sass-loader#imports)
+
+### Running tests
+The test use the [web-component-tester](https://github.com/Polymer/tools/tree/master/packages/web-component-tester) created by the Polymer team.
+It needs to have a html file in the ```test``` folder where the component is created with all the scripts needed.
+
+Once you're done, run  ```npm test``` which will launch the wct runner. The ```hook configure``` step will probably take a while but then you should get a result in the console.
