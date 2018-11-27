@@ -63,3 +63,8 @@ The test use the [web-component-tester](https://github.com/Polymer/tools/tree/ma
 It needs to have a html file in the ```test``` folder where the component is created with all the scripts needed.
 
 Once you're done, run  ```npm test``` which will launch the wct runner. The ```hook configure``` step will probably take a while but then you should get a result in the console.
+
+For more info about the UT, refer to :
+https://bendyworks.com/blog/native-web-components
+https://github.com/pearlbea/mini-form/tree/step-1
+https://github.com/Polymer/tools/tree/master/packages/web-component-tester

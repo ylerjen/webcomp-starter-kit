@@ -28,3 +28,10 @@ suite('AwesomeLib', function() {
         });
     });
 });
+
+suite('<change-me>', function() {
+    let component = document.querySelector('change-me');
+    test('renders div', () => {
+        assert.isOk(component.shadowRoot.querySelector('h1'));
+    });
+});
