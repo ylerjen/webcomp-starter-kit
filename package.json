@@ -26,29 +26,29 @@
     },
     "homepage": "https://github.com/ylerjen/webcomp-starter-kit#readme",
     "devDependencies": {
-        "@babel/core": "^7.1.6",
-        "@babel/preset-env": "^7.1.6",
-        "babel-loader": "^8.0.4",
-        "copy-webpack-plugin": "^4.6.0",
-        "css-loader": "^1.0.1",
+        "@babel/core": "^7.6.2",
+        "@babel/preset-env": "^7.6.2",
+        "babel-loader": "^8.0.6",
+        "copy-webpack-plugin": "^5.0.4",
+        "css-loader": "^3.2.0",
         "html-loader": "^0.5.5",
-        "jasmine-core": "^3.3.0",
-        "karma": "^3.1.1",
-        "karma-chrome-launcher": "^2.2.0",
-        "karma-firefox-launcher": "^1.1.0",
+        "jasmine-core": "^3.5.0",
+        "karma": "^4.3.0",
+        "karma-chrome-launcher": "^3.1.0",
+        "karma-firefox-launcher": "^1.2.0",
         "karma-ie-launcher": "^1.0.0",
         "karma-jasmine": "^2.0.1",
-        "node-sass": "^4.10.0",
-        "rimraf": "^2.6.2",
-        "sass-loader": "^7.1.0",
+        "node-sass": "^4.12.0",
+        "rimraf": "^3.0.0",
+        "sass-loader": "^8.0.0",
         "style-loader": "^0.23.1",
         "web-component-tester": "^6.9.0",
-        "webpack": "^4.26.1",
-        "webpack-cli": "^3.1.2",
-        "webpack-dev-server": "^3.1.10"
+        "webpack": "^4.41.0",
+        "webpack-cli": "^3.3.9",
+        "webpack-dev-server": "^3.8.1"
     },
     "dependencies": {
-        "@babel/polyfill": "^7.0.0",
-        "document-register-element": "^1.13.1"
+        "@babel/polyfill": "^7.6.0",
+        "document-register-element": "^1.14.3"
     }
 }
